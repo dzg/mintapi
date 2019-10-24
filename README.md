@@ -89,7 +89,13 @@ make calls to retrieve account/budget information.  We recommend using the
   # Get credit score
   mint.get_credit_score()
 
-  # Initiate an account refresh
+  # Get bills
+  mint.get_bills()
+  
+  # Close session and exit cleanly from selenium/chromedriver
+  mint.close()
+
+# Initiate an account refresh
   mint.initiate_account_refresh()
 ```
 
